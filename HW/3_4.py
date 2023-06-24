@@ -8,5 +8,5 @@ import math
 char = str(input('Ввести строку:'))
 print(char[math.floor(len(char)/2)])
 if char[math.floor(len(char)/2)] == char[0]:
-    slice = char[1:len(char)-1]
+    slice = char[1:-1]
     print(slice)
